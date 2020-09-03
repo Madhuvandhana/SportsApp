@@ -26,7 +26,7 @@ import java.util.Map;
 import java.util.logging.Logger;
 
 public class FCMService extends FirebaseMessagingService {
-    private static final String ADMIN_CHANNEL_ID = "turvochannelId";
+    private static final String ADMIN_CHANNEL_ID = "sportchannelId";
     private NotificationManager notificationManager;
 
     @Override
@@ -120,7 +120,7 @@ public class FCMService extends FirebaseMessagingService {
      */
     @RequiresApi(api = Build.VERSION_CODES.O)
     private void setupChannels() {
-        CharSequence adminChannelName = "TurvoPushNotification";
+        CharSequence adminChannelName = "SportsPushNotification";
         String adminChannelDescription = "Foreground push notification channel";
         NotificationChannel adminChannel;
         adminChannel = new NotificationChannel(ADMIN_CHANNEL_ID, adminChannelName, NotificationManager.IMPORTANCE_HIGH);
