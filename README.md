@@ -1,4 +1,4 @@
-##Application uses MVVM architecture with databinding##
+## Application uses MVVM architecture with databinding
 
 `Monetization Strategies for the app`
 
