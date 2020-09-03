@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">SportsApp</string>
+    <string name="internet_error_message">It looks like you are not connected to internet. Do you want to enable the internet connection?</string>
+</resources>
