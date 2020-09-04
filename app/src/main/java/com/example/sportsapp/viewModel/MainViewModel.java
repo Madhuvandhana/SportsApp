@@ -29,7 +29,6 @@ public class MainViewModel extends BaseObservable {
         sportsRepository = new SportsRepository(context);
         layoutManager = new LinearLayoutManager(context);
         this.context = context;
-        adapter = new PlayersListAdapter(context, playerDetailsInterface);
     }
 
     @BindingAdapter({"bindAdapter"})
